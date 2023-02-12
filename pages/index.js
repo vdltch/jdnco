@@ -85,20 +85,16 @@ export default function Home() {
               <h4 className="py-1 text-teal-600">Back-end</h4>
                 <p>PHP</p>
                 <p>Python</p>
-                <p>Test</p>
+                <p>SQL</p>
               <h4 className="py-1 text-teal-600">Frameworks</h4>
                 <p>Tailwind CSS</p>
                 <p>Bootstrap</p>
                 <p>React</p>
                 <p>Next</p>
-              <h4 className="py-1 text-teal-600">Design UI</h4>
-                <p>Figma</p>
-                <p>Photoshop</p>
               <h4 className="py-1 text-teal-600">Autres</h4>
                 <p>NPM</p>
                 <p>Git / Github</p>
                 <p>Vercel app</p>
-                <p>. NET</p>
                 <p>C++</p>
                 <p>Swift</p>
 
