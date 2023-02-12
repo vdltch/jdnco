@@ -35,7 +35,7 @@ export default function Home() {
                 <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400'>Vincent Delatouche</h2>
                 <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Développeur Web en alternance</h3>
                 <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
-                    Jeune étudiant aimant la programmation WEB et voulant devenir développeur. Je suis à la recherche d'alternance dès maintenant. J'espère rejoindre vos équipes !
+                    Jeune étudiant aimant la programmation WEB et voulant devenir développeur. Je suis à la recherche d&apos;alternance dès maintenant. J&apos;espère rejoindre vos équipes !
                 </p>
             </div>
             <div className=' text-5xl flex justify-center text-gray-600 gap-16 dark:text-white'>
