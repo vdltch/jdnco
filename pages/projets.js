@@ -8,8 +8,8 @@ import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import { useState } from 'react';
-import lpcb from '../public/lpcb.png'
-import pluginWordpress from '../public/plugin-wordpress.png'
+import lpcb from '../public/lpcb.png';
+import pluginWordpress from '../public/plugin-wordpress.png';
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
     return (
@@ -22,7 +22,7 @@ export default function Home() {
         <main className=' bg-white px-10 dark:bg-gray-900' >
             <section className='min-h-screen'>
             <nav className=' py-10 mb-12 flex justify-between'>
-                <h1 className='text-xl font-poppins text-gray-600 dark:text-teal-500'>vincentdelatouche.fr</h1>
+             <h1 className='text-xl font-medium text-teal-600 dark:text-teal-500'>VINCENT DELATOUCHE</h1>
                 <ul className=' flex items-center'>
                     <li>
                         <BsFillMoonStarsFill onClick={() =>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/>
@@ -38,14 +38,14 @@ export default function Home() {
                         Vous trouverez ci-joint des projets réalisés à des fins professionnelles ou personelles. Cette section sera souvent mise à jour.
                 </p>
             </div>
-            <div className=' text-5xl flex justify-center text-gray-600 gap-16'>
+            <div className=' text-5xl flex justify-center text-gray-600 gap-16 dark:text-white'>
                <a href="#"><AiFillApi  /></a>
                <a href="#"><AiFillHtml5 /></a>
                <a href="#"><AiFillCode /></a>
             </div>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image id='code-icon' src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
               Création d&apos;un nouveau site internet pour un lycée
              </h3>
@@ -54,7 +54,7 @@ export default function Home() {
                 design theory. */}
               </p>
               <h4 className="py-1 text-teal-600">Projet scolaire pour le Lycée Château Blanc</h4>
-              <Image className='ml-24 p-5' src={lpcb} width={400} height={400} />
+                <Image id='lpcb-image' className='text-center' src={lpcb} width={400} height={400} />
                 <h3 className='py-3'>Technos utilisées</h3>  
                 <p className='text-teal-600'>Front-end</p>       
                 <p>HTML</p>   
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image id='code-icon' src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
               Création d&apos;un Plugin Wordpress pour gérer des données
              </h3>
@@ -75,7 +75,7 @@ export default function Home() {
                 design theory. */}
               </p>
               <h4 className="py-1 text-teal-600">Plugin réalisé pendant un stage</h4>
-              <Image className='ml-24 p-5' src={pluginWordpress} width={450} height={450} />
+              <Image id='wordpress-plugin' className='ml-24 p-5' src={pluginWordpress} width={450} height={450} />
                 <h3 className='py-3'>Technos utilisées</h3> 
                 <p className=' text-teal-600'>Outils utilisés</p>   
                 <p>Wordpress</p> 

@@ -21,7 +21,7 @@ export default function Home() {
         <main className=' bg-white px-10 dark:bg-gray-900' >
             <section className='min-h-screen'>
             <nav className=' py-10 mb-12 flex justify-between'>
-                <h1 className='text-xl font-poppins text-gray-600 dark:text-teal-500'>vincentdelatouche.fr</h1>
+                <h1 className='text-xl font-medium text-teal-600 dark:text-teal-500'>VINCENT DELATOUCHE</h1>
                 <ul className=' flex items-center'>
                     <li>
                         <BsFillMoonStarsFill onClick={() =>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/>
@@ -33,15 +33,15 @@ export default function Home() {
             </nav>
             <div className='text-center p-10'>
                 <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400'>Vincent Delatouche</h2>
-                <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Développeur Web</h3>
+                <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Développeur Web en alternance</h3>
                 <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
-                    Jeune développeur aimant la programmation WEB  ayant des skills sur le front et back end. Rejoignez moi afin qu on puisse travail ensemble !
+                    Jeune étudiant aimant la programmation WEB et voulant devenir développeur. Je suis à la recherche d'alternance dès maintenant. J'espère rejoindre vos équipes !
                 </p>
             </div>
-            <div className=' text-5xl flex justify-center text-gray-600 gap-16'>
-               <a href="#"><AiFillMobile  /></a>
+            <div className=' text-5xl flex justify-center text-gray-600 gap-16 dark:text-white'>
+               <a href="tel:0609671065"><AiFillMobile  /></a>
                <a href="https://www.linkedin.com/in/vincent-delatouche-01119020a/"><AiFillLinkedin /></a>
-               <a href="#"><AiFillMail /></a>
+               <a href="mailto:vdltch.pro@icloud.com"><AiFillMail /></a>
             </div>
             <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96' >
                 <Image src={deved} layout="fill" objectFit='cover'/>
@@ -85,20 +85,17 @@ export default function Home() {
               <h4 className="py-1 text-teal-600">Back-end</h4>
                 <p>PHP</p>
                 <p>Python</p>
-                <p>Test</p>
+                <p>SQL</p>
               <h4 className="py-1 text-teal-600">Frameworks</h4>
                 <p>Tailwind CSS</p>
                 <p>Bootstrap</p>
                 <p>React</p>
                 <p>Next</p>
-              <h4 className="py-1 text-teal-600">Design UI</h4>
-                <p>Figma</p>
-                <p>Photoshop</p>
               <h4 className="py-1 text-teal-600">Autres</h4>
                 <p>NPM</p>
                 <p>Git / Github</p>
                 <p>Vercel app</p>
-                <p>. NET</p>
+                <p>Wordpress</p>
                 <p>C++</p>
                 <p>Swift</p>
 

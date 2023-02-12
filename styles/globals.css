@@ -21,3 +21,21 @@ h1{
 
 
 }
+#lpcb-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin: auto;
+} 
+
+#wordpress-plugin{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin: auto;
+}
+
+#code-icon {
+  display: block;
+  margin: auto;
+}
