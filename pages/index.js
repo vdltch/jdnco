@@ -27,7 +27,7 @@ export default function Home() {
                         <BsFillMoonStarsFill onClick={() =>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/>
                     </li>
                     <li>
-                        <Link href="/projets" className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Mes projets</Link>
+                        <Link href="/projets" className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Projets</Link>
                     </li>
                 </ul>
             </nav>
