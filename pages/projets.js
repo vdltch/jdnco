@@ -39,9 +39,9 @@ export default function Home() {
                 </p>
             </div>
             <div className=' text-5xl flex justify-center text-gray-600 gap-16 dark:text-white'>
-               <a href="#"><AiFillApi  /></a>
-               <a href="#"><AiFillHtml5 /></a>
-               <a href="#"><AiFillCode /></a>
+                <AiFillApi  />
+                <AiFillHtml5 />
+                <AiFillCode />
             </div>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
