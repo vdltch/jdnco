@@ -22,7 +22,7 @@ export default function Home() {
         <main className=' bg-white px-10 dark:bg-gray-900' >
             <section className='min-h-screen'>
             <nav className=' py-10 mb-12 flex justify-between'>
-             <h1 className='text-xl font-medium text-teal-600 dark:text-teal-500'>VINCENT DELATOUCHE</h1>
+            <h1 className='text-xl font-poppins text-teal-600 dark:text-teal-500'>\vincent_delatouche/</h1>
                 <ul className=' flex items-center'>
                     <li>
                         <BsFillMoonStarsFill onClick={() =>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/>
